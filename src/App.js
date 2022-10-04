@@ -7,7 +7,7 @@ import UserInfo from "./routes/UserInfo";
 const App = () => {
   return (
     <div className="min-h-screen bg-black bg-opacity-75">
-      <div className="container text-gray-200 py-3 px-64">
+      <div className="container text-gray-200 py-3 px-8">
         <Logo />
         <Routes>
           <Route path="/" element={<Users />}></Route>
